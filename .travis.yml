@@ -7,11 +7,11 @@ language: php
 dist: trusty
 
 php:
-  - "7.3"
+  - "7.1"
 # service yang digunakan
 services:
   - docker
-# grouping  task\
+# grouping  task
 jobs:
   include:
     # melakukan testing
